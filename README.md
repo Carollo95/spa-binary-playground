@@ -1,1 +1,4 @@
-# spa-x86-interpreter
+# spa-binary-playground
+
+# Dependencies
+ * React

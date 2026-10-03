@@ -1,0 +1,24 @@
+.tip {
+  position: relative;
+  display: inline-block;
+}
+
+.tip-bubble {
+  visibility: hidden;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  width: max-content;
+  max-width: 320px;
+  padding: 6px 10px;
+  background: #FFFFFF;
+  color: #000000;
+  border: 2px solid #000000;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.tip:hover > .tip-bubble,
+.tip:focus > .tip-bubble {
+  visibility: visible;
+}
